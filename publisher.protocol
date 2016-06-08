@@ -1,0 +1,109 @@
+Protocol file for speedata Publisher (2.4.0)
+Time: Wed Jun  8 14:24:40 2016
+---------------------------------------------
+Start processing
+Talking to server on port 49335
+LuaTeX version 79.1
+Loading hyphenation patterns "hyph-en-gb.pat.txt".
+Language id: 0
+Loading layout instructions "/home/daniel/64studio/git/speedata-examples/layout.xml"
+Setting default language to "Spanish"
+Loading hyphenation patterns "hyph-es.pat.txt".
+Language id: 1
+Defining color "separator-first"
+Defining color "separator-second"
+Load Fontfile "AmnestyTradeGothic-Light.ttf"
+Load Fontfile "AmnestyTradeGothic-LightObl.ttf"
+Load Fontfile "AmnestyTradeGothic-Bd2.ttf"
+Load Fontfile "AmnestyTradeGothic-Cn18.ttf"
+Load Fontfile "AmnestyTradeGothic-BdCn20.ttf"
+Load Fontfile "AmnestyTradeGothic-BdCn20Ob.ttf"
+DefineFontfamily, family=2, name="separator"
+DefineFontfamily, family=3, name="C1"
+DefineFontfamily, family=4, name="C2"
+DefineFontfamily, family=5, name="C4"
+DefineFontfamily, family=6, name="C5"
+DefineFontfamily, family=7, name="C6"
+DefineFontfamily, family=8, name="C8"
+DefineFontfamily, family=9, name="C10"
+DefineFontfamily, family=10, name="footerfont"
+Loading data file "/home/daniel/64studio/git/speedata-examples/data.xml"
+Selecting node: "Section", mode="", pos=1
+Page of type "country-entries" created (1)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 1)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 1)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Page of type "country-entries" created (2)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 2)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 2)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Page of type "country-entries" created (3)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 3)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 3)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Page of type "country-entries" created (4)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 4)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 4)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "content", mode="", pos=1
+Page of type "country-entries" created (5) - pagetype requested
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 5)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 5)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Page of type "country-entries" created (6)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 6)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 6)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Page of type "country-entries" created (7)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 7)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 7)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Page of type "country-entries" created (8)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 8)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 8)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Stop processing data
+0 errors occurred
+Duration: 1.030583 seconds
+node_mem_usage=2 hlist, 45 vlist, 100 rule, 2 disc, 2526 glue, 18 penalty, 12086 glyph, 14236 attribute, 2196 glue_spec, 14128 attribute_list, 1 dir, 36 pdf_colorstack, 1 user_defined
+luastate_bytes=0
+---------------------------------------------
+Duration: 1.031456 seconds
+
+node_mem_usage=2 hlist, 45 vlist, 100 rule, 2 disc, 2526 glue, 18 penalty, 12086 glyph, 14236 attribute, 2196 glue_spec, 14128 attribute_list, 1 dir, 36 pdf_colorstack, 1 user_definedluastate_bytes=0
