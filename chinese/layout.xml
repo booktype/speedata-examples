@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="urn:speedata.de:2009/publisher/en"
+        xmlns:sd="urn:speedata:2009/publisher/functions/en">
+
+  <Options
+    cutmarks="yes"
+    trim="3mm"
+    show-grid="yes"
+    show-gridallocation="no"/>
+
+  <LoadFontfile name="NotoSansCJKsc-Light" filename="NotoSansCJKsc-Light.otf"/>
+
+  <DefineFontfamily name="C6" fontsize="8" leading="11">
+    <Regular fontface="NotoSansCJKsc-Light"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="footerfont" fontsize="8" leading="11">
+    <Regular fontface="NotoSansCJKsc-Light"/>
+  </DefineFontfamily>
+
+
+  <SetVariable variable="footertext-left">
+    <Paragraph textformat="footer-left" fontface="footerfont">
+      <Value>Informe 2014/15 Amnistía Internacional</Value>
+    </Paragraph>
+  </SetVariable>
+
+  <SetVariable variable="footertext-right">
+    <Paragraph fontface="footerfont">
+      <Value>Informe 2014/15 Amnistía Internacional</Value>
+    </Paragraph>
+  </SetVariable>
+
+  <SetGrid width="11pt" height="11pt"/>
+  <Pageformat width="140mm" height="215mm"/>
+
+  <Pagetype name="country-entries" test="true()">
+    <Margin left="11mm" right="13mm" top="12mm" bottom="18mm"/>
+    <PositioningArea name="text-2column">
+      <PositioningFrame width="14" height="48" row="1" column="1"/>
+      <PositioningFrame width="14" height="48" row="1" column="17"/>
+    </PositioningArea>
+    <AtPageCreation>
+      <Switch>
+        <Case test="sd:even(sd:current-page())">
+          <PlaceObject row="51" column="6">
+            <Textblock width="25" height="1">
+              <Copy-of select="$footertext-left"/> 
+            </Textblock>
+          </PlaceObject>
+          <PlaceObject row="51" column="1">
+            <Textblock width="3" height="1">
+              <Paragraph fontface="footerfont" textformat="rightaligned"><Value select="sd:current-page()"/></Paragraph>
+            </Textblock>
+          </PlaceObject>
+        </Case>
+        <Otherwise>
+          <PlaceObject row="51" column="1">
+            <Textblock width="25" height="1">
+              <Copy-of select="$footertext-right"/>
+            </Textblock>
+          </PlaceObject>
+          <PlaceObject row="51" column="30">
+            <Textblock width="3" height="1">
+              <Paragraph fontface="footerfont" textformat="rightaligned"><Value select="sd:current-page()"/></Paragraph>
+            </Textblock>
+          </PlaceObject>
+        </Otherwise>
+      </Switch>
+    </AtPageCreation>
+  </Pagetype>
+
+  <Record element="document">
+    <ProcessNode select="content"/>
+  </Record>
+
+  <Record element="content">
+    <ProcessNode select="*"/>
+  </Record>
+
+    <Record element="C6BodyText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph fontface="C6">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+</Layout>

@@ -69,7 +69,8 @@
 
   <DefineTextformat name="title" padding-top="11pt" hyphenate="no"/>
   <DefineTextformat name="facts" padding-top="10pt" border-top="0.8pt" border-bottom="0.5pt" hyphenate="no"/>
-  <DefineTextformat name="intro" margin-bottom="11pt" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="intro" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="subheading" margin-top="11pt" alignment="leftaligned" hyphenate="no"/>
   <DefineTextformat name="text" alignment="leftaligned" hyphenate="no"/>
   <DefineTextformat name="endnotes" margin-top="10.5pt" border-top="0.5pt" padding-top="-0.5pt" margin-bottom="22pt" hyphenate="no"/>
   <DefineTextformat name="footer-left" alignment="rightaligned" hyphenate="no"/>
@@ -149,8 +150,10 @@
   </Record>
 
   <Record element="content">
+    <ProcessNode select="*"/>
+  </Record>
 
-    <ForAll select="C1Heading">
+    <Record element="C1Heading">
       <Output area="text-2column">
         <Text>
           <Paragraph textformat="title" fontface="C1">
@@ -158,9 +161,9 @@
           </Paragraph>
         </Text>
       </Output>
-    </ForAll>
+    </Record>
 
-    <ForAll select="facts">
+    <Record element="facts">
       <Output area="text-2column">
         <Text>
           <Paragraph textformat="facts" fontface="C2">
@@ -168,9 +171,9 @@
           </Paragraph>
         </Text>
       </Output>
-    </ForAll>
+    </Record>
 
-    <ForAll select="C4IntroText">
+    <Record element="C4IntroText">
       <Output area="text-2column">
         <Text>
           <Paragraph textformat="intro" fontface="C4">
@@ -178,39 +181,29 @@
           </Paragraph>
         </Text>
       </Output>
-    </ForAll>
+    </Record>
 
-    <ForAll select="C10HeadingIntro">
+    <Record element="C10HeadingIntro">
       <Output area="text-2column">
         <Text>
-          <Paragraph fontface="C10">
+          <Paragraph textformat="subheading" fontface="C10">
             <Value select="."></Value>
           </Paragraph>
         </Text>
       </Output>
-    </ForAll>
+    </Record>
 
-    <ForAll select="C5HeadingText">
+    <Record element="C5HeadingText">
       <Output area="text-2column">
         <Text>
-          <Paragraph fontface="C5">
+          <Paragraph textformat="subheading" fontface="C5">
             <Value select="."></Value>
           </Paragraph>
         </Text>
       </Output>
-    </ForAll>
+    </Record>
 
-    <ForAll select="C6BodyTextFirstPara">
-      <Output area="text-2column">
-        <Text>
-          <Paragraph fontface="C6">
-            <Value select="."></Value>
-          </Paragraph>
-        </Text>
-      </Output>
-    </ForAll>
-
-    <ForAll select="C6BodyText">
+    <Record element="C6BodyTextFirstPara">
       <Output area="text-2column">
         <Text>
           <Paragraph fontface="C6">
@@ -218,9 +211,19 @@
           </Paragraph>
         </Text>
       </Output>
-    </ForAll>
+    </Record>
 
-    <ForAll select="C8EndNotes">
+    <Record element="C6BodyText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph fontface="C6">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C8EndNotes">
       <Output area="text-2column">
         <Text>
           <Ol>
@@ -230,8 +233,6 @@
           </Ol>
         </Text>
       </Output>
-    </ForAll>
-
-  </Record>
+    </Record>
 
 </Layout>

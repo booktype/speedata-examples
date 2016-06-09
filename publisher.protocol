@@ -1,8 +1,8 @@
 Protocol file for speedata Publisher (2.4.0)
-Time: Wed Jun  8 14:24:40 2016
+Time: Thu Jun  9 18:10:39 2016
 ---------------------------------------------
 Start processing
-Talking to server on port 49335
+Talking to server on port 57010
 LuaTeX version 79.1
 Loading hyphenation patterns "hyph-en-gb.pat.txt".
 Language id: 0
@@ -64,6 +64,7 @@ PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 4)
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
 Selecting node: "content", mode="", pos=1
+Selecting node: "C1Heading", mode="", pos=1
 Page of type "country-entries" created (5) - pagetype requested
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 5)
@@ -73,6 +74,14 @@ PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 5)
 Warning: Object protrudes into the right margin
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
+Selecting node: "facts", mode="", pos=2
+Selecting node: "C4IntroText", mode="", pos=3
+Selecting node: "C10HeadingIntro", mode="", pos=4
+Selecting node: "C6BodyTextFirstPara", mode="", pos=5
+Selecting node: "C6BodyText", mode="", pos=6
+Selecting node: "C6BodyText", mode="", pos=7
+Selecting node: "C5HeadingText", mode="", pos=8
+Selecting node: "C6BodyTextFirstPara", mode="", pos=9
 Page of type "country-entries" created (6)
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 6)
@@ -81,6 +90,15 @@ Warning: Conflict in grid
 PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 6)
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=10
+Selecting node: "C6BodyText", mode="", pos=11
+Selecting node: "C6BodyText", mode="", pos=12
+Selecting node: "C5HeadingText", mode="", pos=13
+Selecting node: "C6BodyTextFirstPara", mode="", pos=14
+Selecting node: "C6BodyText", mode="", pos=15
+Selecting node: "C6BodyText", mode="", pos=16
+Selecting node: "C5HeadingText", mode="", pos=17
+Selecting node: "C6BodyTextFirstPara", mode="", pos=18
 Page of type "country-entries" created (7)
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 7)
@@ -90,6 +108,18 @@ PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 7)
 Warning: Object protrudes into the right margin
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=19
+Selecting node: "C6BodyText", mode="", pos=20
+Selecting node: "C6BodyText", mode="", pos=21
+Selecting node: "C5HeadingText", mode="", pos=22
+Selecting node: "C6BodyTextFirstPara", mode="", pos=23
+Selecting node: "C6BodyText", mode="", pos=24
+Selecting node: "C5HeadingText", mode="", pos=25
+Selecting node: "C6BodyTextFirstPara", mode="", pos=26
+Selecting node: "C6BodyText", mode="", pos=27
+Selecting node: "C6BodyText", mode="", pos=28
+Selecting node: "C5HeadingText", mode="", pos=29
+Selecting node: "C6BodyTextFirstPara", mode="", pos=30
 Page of type "country-entries" created (8)
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 8)
@@ -98,12 +128,19 @@ Warning: Conflict in grid
 PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 8)
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=31
+Selecting node: "C6BodyText", mode="", pos=32
+Selecting node: "C5HeadingText", mode="", pos=33
+Selecting node: "C6BodyTextFirstPara", mode="", pos=34
+Selecting node: "C6BodyText", mode="", pos=35
+Selecting node: "C6BodyText", mode="", pos=36
+Selecting node: "C8EndNotes", mode="", pos=37
 Stop processing data
 0 errors occurred
-Duration: 1.030583 seconds
-node_mem_usage=2 hlist, 45 vlist, 100 rule, 2 disc, 2526 glue, 18 penalty, 12086 glyph, 14236 attribute, 2196 glue_spec, 14128 attribute_list, 1 dir, 36 pdf_colorstack, 1 user_defined
+Duration: 1.040722 seconds
+node_mem_usage=2 hlist, 47 vlist, 100 rule, 2 disc, 2526 glue, 18 penalty, 12086 glyph, 14236 attribute, 2196 glue_spec, 14128 attribute_list, 1 dir, 36 pdf_colorstack, 1 user_defined
 luastate_bytes=0
 ---------------------------------------------
-Duration: 1.031456 seconds
+Duration: 1.041590 seconds
 
-node_mem_usage=2 hlist, 45 vlist, 100 rule, 2 disc, 2526 glue, 18 penalty, 12086 glyph, 14236 attribute, 2196 glue_spec, 14128 attribute_list, 1 dir, 36 pdf_colorstack, 1 user_definedluastate_bytes=0
+node_mem_usage=2 hlist, 47 vlist, 100 rule, 2 disc, 2526 glue, 18 penalty, 12086 glyph, 14236 attribute, 2196 glue_spec, 14128 attribute_list, 1 dir, 36 pdf_colorstack, 1 user_definedluastate_bytes=0

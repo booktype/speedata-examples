@@ -1,0 +1,38 @@
+Protocol file for speedata Publisher (2.4.0)
+Time: Thu Jun  9 17:34:52 2016
+---------------------------------------------
+Start processing
+Talking to server on port 42983
+LuaTeX version 79.1
+Loading hyphenation patterns "hyph-en-gb.pat.txt".
+Language id: 0
+Loading layout instructions "/home/daniel/64studio/git/speedata-examples/arabic/layout.xml"
+Defining color "separator-first"
+Defining color "separator-second"
+Load Fontfile "FrutigerLTArabic-45Light.ttf"
+Load Fontfile "FrutigerLTArabic-57Cn.ttf"
+Load Fontfile "FrutigerLTArabic-65Bold.ttf"
+Load Fontfile "FrutigerLTArabic-67BoldCn.ttf"
+DefineFontfamily, family=2, name="C6"
+DefineFontfamily, family=3, name="footerfont"
+Loading data file "/home/daniel/64studio/git/speedata-examples/arabic/data.xml"
+Selecting node: "content", mode="", pos=1
+Selecting node: "C6BodyText", mode="", pos=1
+Page of type "country-entries" created (1)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 1)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 1)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Stop processing data
+0 errors occurred
+Duration: 0.523043 seconds
+node_mem_usage=1 vlist, 50 rule, 287 glue, 132 penalty, 1452 glyph, 1666 attribute, 241 glue_spec, 1664 attribute_list, 1 dir, 4 pdf_colorstack, 1 user_defined
+luastate_bytes=0
+---------------------------------------------
+Duration: 0.523216 seconds
+
+node_mem_usage=1 vlist, 50 rule, 287 glue, 132 penalty, 1452 glyph, 1666 attribute, 241 glue_spec, 1664 attribute_list, 1 dir, 4 pdf_colorstack, 1 user_definedluastate_bytes=0
