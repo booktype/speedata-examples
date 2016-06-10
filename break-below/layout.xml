@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="urn:speedata.de:2009/publisher/en"
+        xmlns:sd="urn:speedata:2009/publisher/functions/en">
+
+  <Options
+    cutmarks="yes"
+    trim="3mm"
+    show-grid="yes"
+    show-gridallocation="yes"/>
+
+  <LoadFontfile name="AmnestyTradeGothic-Light" filename="AmnestyTradeGothic-Light.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-LightObl" filename="AmnestyTradeGothic-LightObl.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-Bd2" filename="AmnestyTradeGothic-Bd2.ttf"/>
+
+  <LoadFontfile name="AmnestyTradeGothic-Cn18" filename="AmnestyTradeGothic-Cn18.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-BdCn20" filename="AmnestyTradeGothic-BdCn20.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-BdCn20Ob" filename="AmnestyTradeGothic-BdCn20Ob.ttf"/>
+
+  <DefineFontfamily name="C1" fontsize="22" leading="22">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C2" fontsize="8.5" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Cn18"/>
+    <Bold fontface="AmnestyTradeGothic-BdCn20"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C4" fontsize="8" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Bd2"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C5" fontsize="12" leading="11">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C6" fontsize="8" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Light"/>
+    <Bold fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-LightObl"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C8" fontsize="6" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Cn18"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C10" fontsize="12" leading="11">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+
+  <DefineTextformat name="title" padding-top="11pt" hyphenate="no"/>
+  <DefineTextformat name="facts" padding-top="10pt" border-top="0.8pt" border-bottom="0.5pt" hyphenate="no"/>
+  <DefineTextformat name="intro" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="subheading" break-below="no" margin-top="11pt" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="text-first" indentation="0" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="text" indentation="8pt" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="endnotes" margin-top="10.5pt" border-top="0.5pt" padding-top="-0.5pt" margin-bottom="22pt" hyphenate="no"/>
+  <DefineTextformat name="footer-left" alignment="rightaligned" hyphenate="no"/>
+
+  <SetGrid width="11pt" height="11pt"/>
+  <Pageformat width="140mm" height="215mm"/>
+
+  <Pagetype name="country-entries" test="true()">
+    <Margin left="11mm" right="13mm" top="12mm" bottom="18mm"/>
+    <PositioningArea name="text-2column">
+      <PositioningFrame width="14" height="48" row="1" column="1"/>
+      <PositioningFrame width="14" height="48" row="1" column="17"/>
+    </PositioningArea>
+  </Pagetype>
+
+  <Record element="document">
+    <ProcessNode select="content"/>
+  </Record>
+
+  <Record element="content">
+    <ProcessNode select="*"/>
+  </Record>
+
+    <Record element="C1Heading">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="title" fontface="C1">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="facts">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="facts" fontface="C2">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C4IntroText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="intro" fontface="C4">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C10HeadingIntro">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="subheading" fontface="C10">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C5HeadingText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="subheading" fontface="C5">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C6BodyTextFirstPara">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="text-first" fontface="C6">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C6BodyText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="text" fontface="C6">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C8EndNotes">
+      <Output area="text-2column">
+        <Text>
+          <Ol>
+            <ForAll select="C8EndNote">
+              <Li><Value select="."></Value></Li>
+            </ForAll>
+          </Ol>
+        </Text>
+      </Output>
+    </Record>
+
+</Layout>

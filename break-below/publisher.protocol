@@ -1,0 +1,52 @@
+Protocol file for speedata Publisher (2.4.1)
+Time: Fri Jun 10 11:40:56 2016
+---------------------------------------------
+Start processing
+Talking to server on port 60352
+LuaTeX version 79.1
+Loading hyphenation patterns "hyph-en-gb.pat.txt".
+Language id: 0
+Loading layout instructions "/home/daniel/64studio/git/speedata-examples/break-below/layout.xml"
+Load Fontfile "AmnestyTradeGothic-Light.ttf"
+Load Fontfile "AmnestyTradeGothic-LightObl.ttf"
+Load Fontfile "AmnestyTradeGothic-Bd2.ttf"
+Load Fontfile "AmnestyTradeGothic-Cn18.ttf"
+Load Fontfile "AmnestyTradeGothic-BdCn20.ttf"
+Load Fontfile "AmnestyTradeGothic-BdCn20Ob.ttf"
+DefineFontfamily, family=2, name="C1"
+DefineFontfamily, family=3, name="C2"
+DefineFontfamily, family=4, name="C4"
+DefineFontfamily, family=5, name="C5"
+DefineFontfamily, family=6, name="C6"
+DefineFontfamily, family=7, name="C8"
+DefineFontfamily, family=8, name="C10"
+Loading data file "/home/daniel/64studio/git/speedata-examples/break-below/data.xml"
+Selecting node: "content", mode="", pos=1
+Selecting node: "C6BodyTextFirstPara", mode="", pos=1
+Page of type "country-entries" created (1)
+Number of rows: 48, number of columns = 30
+Selecting node: "C6BodyText", mode="", pos=2
+Selecting node: "C6BodyText", mode="", pos=3
+Selecting node: "C5HeadingText", mode="", pos=4
+Selecting node: "C6BodyTextFirstPara", mode="", pos=5
+Selecting node: "C6BodyText", mode="", pos=6
+Selecting node: "C6BodyText", mode="", pos=7
+Selecting node: "C8EndNotes", mode="", pos=8
+Selecting node: "content", mode="", pos=2
+Selecting node: "C1Heading", mode="", pos=1
+Selecting node: "facts", mode="", pos=2
+Selecting node: "C4IntroText", mode="", pos=3
+Selecting node: "C10HeadingIntro", mode="", pos=4
+Selecting node: "C6BodyTextFirstPara", mode="", pos=5
+Page of type "country-entries" created (2)
+Number of rows: 48, number of columns = 30
+Selecting node: "C6BodyText", mode="", pos=6
+Stop processing data
+0 errors occurred
+Duration: 0.711646 seconds
+node_mem_usage=2 hlist, 16 vlist, 33 rule, 4 disc, 645 glue, 19 penalty, 3197 glyph, 3780 attribute, 561 glue_spec, 3778 attribute_list, 1 dir, 1 user_defined
+luastate_bytes=0
+---------------------------------------------
+Duration: 0.712064 seconds
+
+node_mem_usage=2 hlist, 16 vlist, 33 rule, 4 disc, 645 glue, 19 penalty, 3197 glyph, 3780 attribute, 561 glue_spec, 3778 attribute_list, 1 dir, 1 user_definedluastate_bytes=0
