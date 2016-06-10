@@ -1,0 +1,2445 @@
+Protocol file for speedata Publisher (2.5.1)
+Time: Fri Jun 10 17:26:14 2016
+---------------------------------------------
+Start processing
+Talking to server on port 57762
+LuaTeX version 79.1
+Loading hyphenation patterns "hyph-en-gb.pat.txt".
+Language id: 0
+Loading layout instructions "/home/daniel/64studio/git/speedata-examples/toc/planets-layout.xml"
+Load Fontfile "texgyreheros-regular.otf"
+Load Fontfile "texgyreheros-bold.otf"
+Load Fontfile "texgyreheros-italic.otf"
+Load Fontfile "texgyreheros-bolditalic.otf"
+DefineFontfamily, family=2, name="Title"
+DefineFontfamily, family=3, name="contents"
+DefineFontfamily, family=4, name="text"
+Loading data file "/home/daniel/64studio/git/speedata-examples/toc/planets-data.xml"
+Loading file "/home/daniel/64studio/git/speedata-examples/toc/publisher-toc.dataxml"
+Selecting node: "tableofcontents", mode=""
+Page of type "right page" created (1)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 1)
+Message: "1"
+Page of type "left page" created (2)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 2)
+Message: "2"
+Selecting node: "planet", mode="", pos=1
+Page of type "right page" created (3)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 3)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 3)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 3)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 3)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 3)
+Message: "3"
+Selecting node: "planet", mode="", pos=2
+Page of type "left page" created (4)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 4)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 4)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 4)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 4)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 4)
+Message: "4"
+Selecting node: "planet", mode="", pos=3
+Page of type "right page" created (5)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 5)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 5)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 5)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 5)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 5)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 5)
+Message: "5"
+Selecting node: "planet", mode="", pos=4
+Page of type "left page" created (6)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 6)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 6)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 6)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 6)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 6)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 6)
+Message: "6"
+Selecting node: "planet", mode="", pos=5
+Page of type "right page" created (7)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 7)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 7)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 7)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 7)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 7)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 7)
+Message: "7"
+Selecting node: "planet", mode="", pos=6
+Page of type "left page" created (8)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 8)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 8)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 8)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 8)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 8)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 8)
+Message: "8"
+Selecting node: "planet", mode="", pos=7
+Page of type "right page" created (9)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 9)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 9)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 9)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 9)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 9)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 9)
+Message: "9"
+Selecting node: "planet", mode="", pos=8
+Page of type "left page" created (10)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 10)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 10)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 10)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 10)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 10)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 10)
+Message: "10"
+Selecting node: "planet", mode="", pos=9
+Page of type "right page" created (11)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 11)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 11)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 11)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 11)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 11)
+Message: "11"
+Selecting node: "planet", mode="", pos=10
+Page of type "left page" created (12)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 12)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 12)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 12)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 12)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 12)
+Message: "12"
+Selecting node: "planet", mode="", pos=11
+Page of type "right page" created (13)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 13)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 13)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 13)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 13)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 13)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 13)
+Message: "13"
+Selecting node: "planet", mode="", pos=12
+Page of type "left page" created (14)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 14)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 14)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 14)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 14)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 14)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 14)
+Message: "14"
+Selecting node: "planet", mode="", pos=13
+Page of type "right page" created (15)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 15)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 15)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 15)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 15)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 15)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 15)
+Message: "15"
+Selecting node: "planet", mode="", pos=14
+Page of type "left page" created (16)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 16)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 16)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 16)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 16)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 16)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 16)
+Message: "16"
+Selecting node: "planet", mode="", pos=15
+Page of type "right page" created (17)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 17)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 17)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 17)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 17)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 17)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 17)
+Message: "17"
+Selecting node: "planet", mode="", pos=16
+Page of type "left page" created (18)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 18)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 18)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 18)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 18)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 18)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 18)
+Message: "18"
+Selecting node: "planet", mode="", pos=17
+Page of type "right page" created (19)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 19)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 19)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 19)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 19)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 19)
+Message: "19"
+Selecting node: "planet", mode="", pos=18
+Page of type "left page" created (20)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 20)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 20)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 20)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 20)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 20)
+Message: "20"
+Selecting node: "planet", mode="", pos=19
+Page of type "right page" created (21)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 21)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 21)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 21)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 21)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 21)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 21)
+Message: "21"
+Selecting node: "planet", mode="", pos=20
+Page of type "left page" created (22)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 22)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 22)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 22)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 22)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 22)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 22)
+Message: "22"
+Selecting node: "planet", mode="", pos=21
+Page of type "right page" created (23)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 23)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 23)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 23)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 23)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 23)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 23)
+Message: "23"
+Selecting node: "planet", mode="", pos=22
+Page of type "left page" created (24)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 24)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 24)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 24)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 24)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 24)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 24)
+Message: "24"
+Selecting node: "planet", mode="", pos=23
+Page of type "right page" created (25)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 25)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 25)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 25)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 25)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 25)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 25)
+Message: "25"
+Selecting node: "planet", mode="", pos=24
+Page of type "left page" created (26)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 26)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 26)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 26)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 26)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 26)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 26)
+Message: "26"
+Selecting node: "planet", mode="", pos=25
+Page of type "right page" created (27)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 27)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 27)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 27)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 27)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 27)
+Message: "27"
+Selecting node: "planet", mode="", pos=26
+Page of type "left page" created (28)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 28)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 28)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 28)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 28)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 28)
+Message: "28"
+Selecting node: "planet", mode="", pos=27
+Page of type "right page" created (29)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 29)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 29)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 29)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 29)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 29)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 29)
+Message: "29"
+Selecting node: "planet", mode="", pos=28
+Page of type "left page" created (30)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 30)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 30)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 30)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 30)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 30)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 30)
+Message: "30"
+Selecting node: "planet", mode="", pos=29
+Page of type "right page" created (31)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 31)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 31)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 31)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 31)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 31)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 31)
+Message: "31"
+Selecting node: "planet", mode="", pos=30
+Page of type "left page" created (32)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 32)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 32)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 32)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 32)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 32)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 32)
+Message: "32"
+Selecting node: "planet", mode="", pos=31
+Page of type "right page" created (33)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 33)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 33)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 33)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 33)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 33)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 33)
+Message: "33"
+Selecting node: "planet", mode="", pos=32
+Page of type "left page" created (34)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 34)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 34)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 34)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 34)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 34)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 34)
+Message: "34"
+Selecting node: "planet", mode="", pos=33
+Page of type "right page" created (35)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 35)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 35)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 35)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 35)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 35)
+Message: "35"
+Selecting node: "planet", mode="", pos=34
+Page of type "left page" created (36)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 36)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 36)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 36)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 36)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 36)
+Message: "36"
+Selecting node: "planet", mode="", pos=35
+Page of type "right page" created (37)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 37)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 37)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 37)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 37)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 37)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 37)
+Message: "37"
+Selecting node: "planet", mode="", pos=36
+Page of type "left page" created (38)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 38)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 38)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 38)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 38)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 38)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 38)
+Message: "38"
+Selecting node: "planet", mode="", pos=37
+Page of type "right page" created (39)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 39)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 39)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 39)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 39)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 39)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 39)
+Message: "39"
+Selecting node: "planet", mode="", pos=38
+Page of type "left page" created (40)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 40)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 40)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 40)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 40)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 40)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 40)
+Message: "40"
+Selecting node: "planet", mode="", pos=39
+Page of type "right page" created (41)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 41)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 41)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 41)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 41)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 41)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 41)
+Message: "41"
+Selecting node: "planet", mode="", pos=40
+Page of type "left page" created (42)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 42)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 42)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 42)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 42)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 42)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 42)
+Message: "42"
+Selecting node: "planet", mode="", pos=41
+Page of type "right page" created (43)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 43)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 43)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 43)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 43)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 43)
+Message: "43"
+Selecting node: "planet", mode="", pos=42
+Page of type "left page" created (44)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 44)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 44)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 44)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 44)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 44)
+Message: "44"
+Selecting node: "planet", mode="", pos=43
+Page of type "right page" created (45)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 45)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 45)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 45)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 45)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 45)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 45)
+Message: "45"
+Selecting node: "planet", mode="", pos=44
+Page of type "left page" created (46)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 46)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 46)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 46)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 46)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 46)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 46)
+Message: "46"
+Selecting node: "planet", mode="", pos=45
+Page of type "right page" created (47)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 47)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 47)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 47)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 47)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 47)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 47)
+Message: "47"
+Selecting node: "planet", mode="", pos=46
+Page of type "left page" created (48)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 48)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 48)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 48)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 48)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 48)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 48)
+Message: "48"
+Selecting node: "planet", mode="", pos=47
+Page of type "right page" created (49)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 49)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 49)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 49)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 49)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 49)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 49)
+Message: "49"
+Selecting node: "planet", mode="", pos=48
+Page of type "left page" created (50)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 50)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 50)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 50)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 50)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 50)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 50)
+Message: "50"
+Selecting node: "planet", mode="", pos=49
+Page of type "right page" created (51)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 51)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 51)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 51)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 51)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 51)
+Message: "51"
+Selecting node: "planet", mode="", pos=50
+Page of type "left page" created (52)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 52)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 52)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 52)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 52)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 52)
+Message: "52"
+Selecting node: "planet", mode="", pos=51
+Page of type "right page" created (53)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 53)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 53)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 53)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 53)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 53)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 53)
+Message: "53"
+Selecting node: "planet", mode="", pos=52
+Page of type "left page" created (54)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 54)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 54)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 54)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 54)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 54)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 54)
+Message: "54"
+Selecting node: "planet", mode="", pos=53
+Page of type "right page" created (55)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 55)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 55)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 55)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 55)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 55)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 55)
+Message: "55"
+Selecting node: "planet", mode="", pos=54
+Page of type "left page" created (56)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 56)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 56)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 56)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 56)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 56)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 56)
+Message: "56"
+Selecting node: "planet", mode="", pos=55
+Page of type "right page" created (57)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 57)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 57)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 57)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 57)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 57)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 57)
+Message: "57"
+Selecting node: "planet", mode="", pos=56
+Page of type "left page" created (58)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 58)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 58)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 58)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 58)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 58)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 58)
+Message: "58"
+Selecting node: "planet", mode="", pos=57
+Page of type "right page" created (59)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 59)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 59)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 59)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 59)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 59)
+Message: "59"
+Selecting node: "planet", mode="", pos=58
+Page of type "left page" created (60)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 60)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 60)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 60)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 60)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 60)
+Message: "60"
+Selecting node: "planet", mode="", pos=59
+Page of type "right page" created (61)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 61)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 61)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 61)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 61)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 61)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 61)
+Message: "61"
+Selecting node: "planet", mode="", pos=60
+Page of type "left page" created (62)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 62)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 62)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 62)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 62)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 62)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 62)
+Message: "62"
+Selecting node: "planet", mode="", pos=61
+Page of type "right page" created (63)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 63)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 63)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 63)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 63)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 63)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 63)
+Message: "63"
+Selecting node: "planet", mode="", pos=62
+Page of type "left page" created (64)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 64)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 64)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 64)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 64)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 64)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 64)
+Message: "64"
+Selecting node: "planet", mode="", pos=63
+Page of type "right page" created (65)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 65)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 65)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 65)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 65)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 65)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 65)
+Message: "65"
+Selecting node: "planet", mode="", pos=64
+Page of type "left page" created (66)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 66)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 66)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 66)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 66)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 66)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 66)
+Message: "66"
+Selecting node: "planet", mode="", pos=65
+Page of type "right page" created (67)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 67)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 67)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 67)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 67)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 67)
+Message: "67"
+Selecting node: "planet", mode="", pos=66
+Page of type "left page" created (68)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 68)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 68)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 68)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 68)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 68)
+Message: "68"
+Selecting node: "planet", mode="", pos=67
+Page of type "right page" created (69)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 69)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 69)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 69)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 69)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 69)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 69)
+Message: "69"
+Selecting node: "planet", mode="", pos=68
+Page of type "left page" created (70)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 70)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 70)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 70)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 70)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 70)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 70)
+Message: "70"
+Selecting node: "planet", mode="", pos=69
+Page of type "right page" created (71)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 71)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 71)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 71)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 71)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 71)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 71)
+Message: "71"
+Selecting node: "planet", mode="", pos=70
+Page of type "left page" created (72)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 72)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 72)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 72)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 72)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 72)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 72)
+Message: "72"
+Selecting node: "planet", mode="", pos=71
+Page of type "right page" created (73)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 73)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 73)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 73)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 73)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 73)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 73)
+Message: "73"
+Selecting node: "planet", mode="", pos=72
+Page of type "left page" created (74)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 74)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 74)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 74)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 74)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 74)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 74)
+Message: "74"
+Selecting node: "planet", mode="", pos=73
+Page of type "right page" created (75)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 75)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 75)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 75)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 75)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 75)
+Message: "75"
+Selecting node: "planet", mode="", pos=74
+Page of type "left page" created (76)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 76)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 76)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 76)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 76)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 76)
+Message: "76"
+Selecting node: "planet", mode="", pos=75
+Page of type "right page" created (77)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 77)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 77)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 77)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 77)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 77)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 77)
+Message: "77"
+Selecting node: "planet", mode="", pos=76
+Page of type "left page" created (78)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 78)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 78)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 78)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 78)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 78)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 78)
+Message: "78"
+Selecting node: "planet", mode="", pos=77
+Page of type "right page" created (79)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 79)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 79)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 79)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 79)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 79)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 79)
+Message: "79"
+Selecting node: "planet", mode="", pos=78
+Page of type "left page" created (80)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 80)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 80)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 80)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 80)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 80)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 80)
+Message: "80"
+Selecting node: "planet", mode="", pos=79
+Page of type "right page" created (81)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 81)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 81)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 81)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 81)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 81)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 81)
+Message: "81"
+Selecting node: "planet", mode="", pos=80
+Page of type "left page" created (82)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 82)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 82)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 82)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 82)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 82)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 82)
+Message: "82"
+Selecting node: "planet", mode="", pos=81
+Page of type "right page" created (83)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 83)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 83)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 83)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 83)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 83)
+Message: "83"
+Selecting node: "planet", mode="", pos=82
+Page of type "left page" created (84)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 84)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 84)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 84)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 84)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 84)
+Message: "84"
+Selecting node: "planet", mode="", pos=83
+Page of type "right page" created (85)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 85)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 85)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 85)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 85)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 85)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 85)
+Message: "85"
+Selecting node: "planet", mode="", pos=84
+Page of type "left page" created (86)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 86)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 86)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 86)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 86)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 86)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 86)
+Message: "86"
+Selecting node: "planet", mode="", pos=85
+Page of type "right page" created (87)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 87)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 87)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 87)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 87)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 87)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 87)
+Message: "87"
+Selecting node: "planet", mode="", pos=86
+Page of type "left page" created (88)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 88)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 88)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 88)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 88)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 88)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 88)
+Message: "88"
+Selecting node: "planet", mode="", pos=87
+Page of type "right page" created (89)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 89)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 89)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 89)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 89)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 89)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 89)
+Message: "89"
+Selecting node: "planet", mode="", pos=88
+Page of type "left page" created (90)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 90)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 90)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 90)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 90)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 90)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 90)
+Message: "90"
+Stop processing data
+0 errors occurred
+Duration: 7.624830 seconds
+node_mem_usage=407 hlist, 92 vlist, 600 rule, 144 disc, 18191 glue, 299 penalty, 86514 glyph, 106055 attribute, 16684 glue_spec, 104986 attribute_list, 88 action, 1 dir, 88 pdf_start_link, 88 pdf_end_link, 88 pdf_dest, 1654 pdf_colorstack, 89 user_defined
+luastate_bytes=0
+---------------------------------------------
+Duration: 7.630807 seconds
+
+node_mem_usage=407 hlist, 92 vlist, 600 rule, 144 disc, 18191 glue, 299 penalty, 86514 glyph, 106055 attribute, 16684 glue_spec, 104986 attribute_list, 88 action, 1 dir, 88 pdf_start_link, 88 pdf_end_link, 88 pdf_dest, 1654 pdf_colorstack, 89 user_definedluastate_bytes=0---------------------------------------------
+Start processing
+Talking to server on port 57762
+LuaTeX version 79.1
+Loading hyphenation patterns "hyph-en-gb.pat.txt".
+Language id: 0
+Loading layout instructions "/home/daniel/64studio/git/speedata-examples/toc/planets-layout.xml"
+Load Fontfile "texgyreheros-regular.otf"
+Load Fontfile "texgyreheros-bold.otf"
+Load Fontfile "texgyreheros-italic.otf"
+Load Fontfile "texgyreheros-bolditalic.otf"
+DefineFontfamily, family=2, name="Title"
+DefineFontfamily, family=3, name="contents"
+DefineFontfamily, family=4, name="text"
+Loading data file "/home/daniel/64studio/git/speedata-examples/toc/planets-data.xml"
+Loading file "/home/daniel/64studio/git/speedata-examples/toc/publisher-toc.dataxml"
+Selecting node: "tableofcontents", mode=""
+Page of type "right page" created (1)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 1)
+Message: "1"
+Page of type "left page" created (2)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 2)
+Message: "2"
+Selecting node: "planet", mode="", pos=1
+Page of type "right page" created (3)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 3)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 3)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 3)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 3)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 3)
+Message: "3"
+Selecting node: "planet", mode="", pos=2
+Page of type "left page" created (4)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 4)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 4)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 4)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 4)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 4)
+Message: "4"
+Selecting node: "planet", mode="", pos=3
+Page of type "right page" created (5)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 5)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 5)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 5)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 5)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 5)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 5)
+Message: "5"
+Selecting node: "planet", mode="", pos=4
+Page of type "left page" created (6)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 6)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 6)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 6)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 6)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 6)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 6)
+Message: "6"
+Selecting node: "planet", mode="", pos=5
+Page of type "right page" created (7)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 7)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 7)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 7)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 7)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 7)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 7)
+Message: "7"
+Selecting node: "planet", mode="", pos=6
+Page of type "left page" created (8)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 8)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 8)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 8)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 8)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 8)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 8)
+Message: "8"
+Selecting node: "planet", mode="", pos=7
+Page of type "right page" created (9)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 9)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 9)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 9)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 9)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 9)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 9)
+Message: "9"
+Selecting node: "planet", mode="", pos=8
+Page of type "left page" created (10)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 10)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 10)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 10)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 10)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 10)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 10)
+Message: "10"
+Selecting node: "planet", mode="", pos=9
+Page of type "right page" created (11)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 11)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 11)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 11)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 11)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 11)
+Message: "11"
+Selecting node: "planet", mode="", pos=10
+Page of type "left page" created (12)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 12)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 12)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 12)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 12)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 12)
+Message: "12"
+Selecting node: "planet", mode="", pos=11
+Page of type "right page" created (13)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 13)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 13)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 13)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 13)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 13)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 13)
+Message: "13"
+Selecting node: "planet", mode="", pos=12
+Page of type "left page" created (14)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 14)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 14)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 14)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 14)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 14)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 14)
+Message: "14"
+Selecting node: "planet", mode="", pos=13
+Page of type "right page" created (15)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 15)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 15)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 15)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 15)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 15)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 15)
+Message: "15"
+Selecting node: "planet", mode="", pos=14
+Page of type "left page" created (16)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 16)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 16)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 16)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 16)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 16)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 16)
+Message: "16"
+Selecting node: "planet", mode="", pos=15
+Page of type "right page" created (17)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 17)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 17)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 17)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 17)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 17)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 17)
+Message: "17"
+Selecting node: "planet", mode="", pos=16
+Page of type "left page" created (18)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 18)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 18)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 18)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 18)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 18)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 18)
+Message: "18"
+Selecting node: "planet", mode="", pos=17
+Page of type "right page" created (19)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 19)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 19)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 19)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 19)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 19)
+Message: "19"
+Selecting node: "planet", mode="", pos=18
+Page of type "left page" created (20)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 20)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 20)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 20)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 20)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 20)
+Message: "20"
+Selecting node: "planet", mode="", pos=19
+Page of type "right page" created (21)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 21)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 21)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 21)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 21)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 21)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 21)
+Message: "21"
+Selecting node: "planet", mode="", pos=20
+Page of type "left page" created (22)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 22)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 22)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 22)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 22)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 22)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 22)
+Message: "22"
+Selecting node: "planet", mode="", pos=21
+Page of type "right page" created (23)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 23)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 23)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 23)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 23)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 23)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 23)
+Message: "23"
+Selecting node: "planet", mode="", pos=22
+Page of type "left page" created (24)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 24)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 24)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 24)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 24)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 24)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 24)
+Message: "24"
+Selecting node: "planet", mode="", pos=23
+Page of type "right page" created (25)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 25)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 25)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 25)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 25)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 25)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 25)
+Message: "25"
+Selecting node: "planet", mode="", pos=24
+Page of type "left page" created (26)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 26)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 26)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 26)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 26)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 26)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 26)
+Message: "26"
+Selecting node: "planet", mode="", pos=25
+Page of type "right page" created (27)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 27)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 27)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 27)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 27)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 27)
+Message: "27"
+Selecting node: "planet", mode="", pos=26
+Page of type "left page" created (28)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 28)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 28)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 28)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 28)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 28)
+Message: "28"
+Selecting node: "planet", mode="", pos=27
+Page of type "right page" created (29)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 29)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 29)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 29)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 29)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 29)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 29)
+Message: "29"
+Selecting node: "planet", mode="", pos=28
+Page of type "left page" created (30)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 30)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 30)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 30)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 30)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 30)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 30)
+Message: "30"
+Selecting node: "planet", mode="", pos=29
+Page of type "right page" created (31)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 31)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 31)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 31)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 31)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 31)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 31)
+Message: "31"
+Selecting node: "planet", mode="", pos=30
+Page of type "left page" created (32)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 32)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 32)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 32)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 32)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 32)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 32)
+Message: "32"
+Selecting node: "planet", mode="", pos=31
+Page of type "right page" created (33)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 33)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 33)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 33)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 33)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 33)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 33)
+Message: "33"
+Selecting node: "planet", mode="", pos=32
+Page of type "left page" created (34)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 34)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 34)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 34)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 34)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 34)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 34)
+Message: "34"
+Selecting node: "planet", mode="", pos=33
+Page of type "right page" created (35)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 35)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 35)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 35)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 35)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 35)
+Message: "35"
+Selecting node: "planet", mode="", pos=34
+Page of type "left page" created (36)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 36)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 36)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 36)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 36)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 36)
+Message: "36"
+Selecting node: "planet", mode="", pos=35
+Page of type "right page" created (37)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 37)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 37)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 37)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 37)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 37)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 37)
+Message: "37"
+Selecting node: "planet", mode="", pos=36
+Page of type "left page" created (38)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 38)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 38)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 38)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 38)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 38)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 38)
+Message: "38"
+Selecting node: "planet", mode="", pos=37
+Page of type "right page" created (39)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 39)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 39)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 39)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 39)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 39)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 39)
+Message: "39"
+Selecting node: "planet", mode="", pos=38
+Page of type "left page" created (40)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 40)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 40)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 40)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 40)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 40)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 40)
+Message: "40"
+Selecting node: "planet", mode="", pos=39
+Page of type "right page" created (41)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 41)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 41)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 41)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 41)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 41)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 41)
+Message: "41"
+Selecting node: "planet", mode="", pos=40
+Page of type "left page" created (42)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 42)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 42)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 42)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 42)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 42)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 42)
+Message: "42"
+Selecting node: "planet", mode="", pos=41
+Page of type "right page" created (43)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 43)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 43)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 43)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 43)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 43)
+Message: "43"
+Selecting node: "planet", mode="", pos=42
+Page of type "left page" created (44)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 44)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 44)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 44)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 44)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 44)
+Message: "44"
+Selecting node: "planet", mode="", pos=43
+Page of type "right page" created (45)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 45)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 45)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 45)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 45)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 45)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 45)
+Message: "45"
+Selecting node: "planet", mode="", pos=44
+Page of type "left page" created (46)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 46)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 46)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 46)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 46)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 46)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 46)
+Message: "46"
+Selecting node: "planet", mode="", pos=45
+Page of type "right page" created (47)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 47)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 47)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 47)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 47)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 47)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 47)
+Message: "47"
+Selecting node: "planet", mode="", pos=46
+Page of type "left page" created (48)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 48)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 48)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 48)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 48)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 48)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 48)
+Message: "48"
+Selecting node: "planet", mode="", pos=47
+Page of type "right page" created (49)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 49)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 49)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 49)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 49)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 49)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 49)
+Message: "49"
+Selecting node: "planet", mode="", pos=48
+Page of type "left page" created (50)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 50)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 50)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 50)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 50)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 50)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 50)
+Message: "50"
+Selecting node: "planet", mode="", pos=49
+Page of type "right page" created (51)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 51)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 51)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 51)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 51)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 51)
+Message: "51"
+Selecting node: "planet", mode="", pos=50
+Page of type "left page" created (52)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 52)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 52)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 52)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 52)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 52)
+Message: "52"
+Selecting node: "planet", mode="", pos=51
+Page of type "right page" created (53)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 53)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 53)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 53)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 53)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 53)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 53)
+Message: "53"
+Selecting node: "planet", mode="", pos=52
+Page of type "left page" created (54)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 54)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 54)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 54)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 54)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 54)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 54)
+Message: "54"
+Selecting node: "planet", mode="", pos=53
+Page of type "right page" created (55)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 55)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 55)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 55)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 55)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 55)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 55)
+Message: "55"
+Selecting node: "planet", mode="", pos=54
+Page of type "left page" created (56)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 56)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 56)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 56)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 56)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 56)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 56)
+Message: "56"
+Selecting node: "planet", mode="", pos=55
+Page of type "right page" created (57)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 57)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 57)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 57)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 57)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 57)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 57)
+Message: "57"
+Selecting node: "planet", mode="", pos=56
+Page of type "left page" created (58)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 58)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 58)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 58)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 58)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 58)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 58)
+Message: "58"
+Selecting node: "planet", mode="", pos=57
+Page of type "right page" created (59)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 59)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 59)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 59)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 59)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 59)
+Message: "59"
+Selecting node: "planet", mode="", pos=58
+Page of type "left page" created (60)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 60)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 60)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 60)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 60)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 60)
+Message: "60"
+Selecting node: "planet", mode="", pos=59
+Page of type "right page" created (61)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 61)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 61)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 61)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 61)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 61)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 61)
+Message: "61"
+Selecting node: "planet", mode="", pos=60
+Page of type "left page" created (62)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 62)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 62)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 62)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 62)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 62)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 62)
+Message: "62"
+Selecting node: "planet", mode="", pos=61
+Page of type "right page" created (63)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 63)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 63)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 63)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 63)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 63)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 63)
+Message: "63"
+Selecting node: "planet", mode="", pos=62
+Page of type "left page" created (64)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 64)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 64)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 64)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 64)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 64)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 64)
+Message: "64"
+Selecting node: "planet", mode="", pos=63
+Page of type "right page" created (65)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 65)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 65)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 65)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 65)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 65)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 65)
+Message: "65"
+Selecting node: "planet", mode="", pos=64
+Page of type "left page" created (66)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 66)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 66)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 66)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 66)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 66)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 66)
+Message: "66"
+Selecting node: "planet", mode="", pos=65
+Page of type "right page" created (67)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 67)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 67)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 67)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 67)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 67)
+Message: "67"
+Selecting node: "planet", mode="", pos=66
+Page of type "left page" created (68)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 68)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 68)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 68)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 68)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 68)
+Message: "68"
+Selecting node: "planet", mode="", pos=67
+Page of type "right page" created (69)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 69)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 69)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 69)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 69)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 69)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 69)
+Message: "69"
+Selecting node: "planet", mode="", pos=68
+Page of type "left page" created (70)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 70)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 70)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 70)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 70)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 70)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 70)
+Message: "70"
+Selecting node: "planet", mode="", pos=69
+Page of type "right page" created (71)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 71)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 71)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 71)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 71)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 71)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 71)
+Message: "71"
+Selecting node: "planet", mode="", pos=70
+Page of type "left page" created (72)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 72)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 72)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 72)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 72)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 72)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 72)
+Message: "72"
+Selecting node: "planet", mode="", pos=71
+Page of type "right page" created (73)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 73)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 73)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 73)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 73)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 73)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 73)
+Message: "73"
+Selecting node: "planet", mode="", pos=72
+Page of type "left page" created (74)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 74)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 74)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 74)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 74)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 74)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 74)
+Message: "74"
+Selecting node: "planet", mode="", pos=73
+Page of type "right page" created (75)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 75)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 75)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 75)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 75)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 75)
+Message: "75"
+Selecting node: "planet", mode="", pos=74
+Page of type "left page" created (76)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 76)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 76)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 76)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 76)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 76)
+Message: "76"
+Selecting node: "planet", mode="", pos=75
+Page of type "right page" created (77)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 77)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 77)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 77)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 77)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 77)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 77)
+Message: "77"
+Selecting node: "planet", mode="", pos=76
+Page of type "left page" created (78)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 78)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 78)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 78)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 78)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 78)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 78)
+Message: "78"
+Selecting node: "planet", mode="", pos=77
+Page of type "right page" created (79)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 79)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 79)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 79)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 79)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 79)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 79)
+Message: "79"
+Selecting node: "planet", mode="", pos=78
+Page of type "left page" created (80)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 80)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 80)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 80)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 80)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 80)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 80)
+Message: "80"
+Selecting node: "planet", mode="", pos=79
+Page of type "right page" created (81)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 81)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 81)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 81)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 81)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 81)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 81)
+Message: "81"
+Selecting node: "planet", mode="", pos=80
+Page of type "left page" created (82)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 82)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 82)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 82)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 82)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 82)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 82)
+Message: "82"
+Selecting node: "planet", mode="", pos=81
+Page of type "right page" created (83)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 83)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 83)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 83)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=18 (page 83)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 83)
+Message: "83"
+Selecting node: "planet", mode="", pos=82
+Page of type "left page" created (84)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 84)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 84)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 84)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=23 (page 84)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 84)
+Message: "84"
+Selecting node: "planet", mode="", pos=83
+Page of type "right page" created (85)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 85)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 85)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=9 (page 85)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=2 (page 85)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=20 (page 85)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 85)
+Message: "85"
+Selecting node: "planet", mode="", pos=84
+Page of type "left page" created (86)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 86)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 86)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 86)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=3 (page 86)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=17 (page 86)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 86)
+Message: "86"
+Selecting node: "planet", mode="", pos=85
+Page of type "right page" created (87)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 87)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 87)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=8 (page 87)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=7 (page 87)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 11 and column 2, width=28, height=14 (page 87)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 87)
+Message: "87"
+Selecting node: "planet", mode="", pos=86
+Page of type "left page" created (88)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 88)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=1 (page 88)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 3 and column 2, width=10, height=5 (page 88)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 3 and column 18, width=7, height=9 (page 88)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 12 and column 2, width=28, height=19 (page 88)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 88)
+Message: "88"
+Selecting node: "planet", mode="", pos=87
+Page of type "right page" created (89)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 89)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 89)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=9 (page 89)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 89)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 13 and column 2, width=28, height=11 (page 89)
+PlaceObject: Textblock in row 35 and column 27, width=3, height=1 (page 89)
+Message: "89"
+Selecting node: "planet", mode="", pos=88
+Page of type "left page" created (90)
+Number of rows: 35, number of columns = 30
+PlaceObject: Textblock in row 1 and column 1, width=20, height=1 (page 90)
+Selecting node: "url", mode="", pos=1
+PlaceObject: Textblock in row 2 and column 2, width=29, height=2 (page 90)
+Selecting node: "image", mode="", pos=1
+PlaceObject: Image in row 4 and column 2, width=10, height=11 (page 90)
+Selecting node: "moons", mode="", pos=1
+PlaceObject: Textblock in row 4 and column 18, width=7, height=7 (page 90)
+Selecting node: "description", mode="", pos=1
+PlaceObject: Textblock in row 15 and column 2, width=28, height=20 (page 90)
+PlaceObject: Textblock in row 35 and column 1, width=3, height=1 (page 90)
+Message: "90"
+Stop processing data
+0 errors occurred
+Duration: 7.686178 seconds
+node_mem_usage=407 hlist, 92 vlist, 600 rule, 144 disc, 18191 glue, 299 penalty, 86514 glyph, 106055 attribute, 16684 glue_spec, 104986 attribute_list, 88 action, 1 dir, 88 pdf_start_link, 88 pdf_end_link, 88 pdf_dest, 1654 pdf_colorstack, 89 user_defined
+luastate_bytes=0
+---------------------------------------------
+Duration: 7.693677 seconds
+
+node_mem_usage=407 hlist, 92 vlist, 600 rule, 144 disc, 18191 glue, 299 penalty, 86514 glyph, 106055 attribute, 16684 glue_spec, 104986 attribute_list, 88 action, 1 dir, 88 pdf_start_link, 88 pdf_end_link, 88 pdf_dest, 1654 pdf_colorstack, 89 user_definedluastate_bytes=0
