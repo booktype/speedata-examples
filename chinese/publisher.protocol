@@ -1,13 +1,13 @@
-Protocol file for speedata Publisher (2.4.0)
-Time: Thu Jun  9 18:08:17 2016
+Protocol file for speedata Publisher (2.5.1)
+Time: Mon Jun 13 17:23:37 2016
 ---------------------------------------------
 Start processing
-Talking to server on port 35382
+Talking to server on port 49962
 LuaTeX version 79.1
 Loading hyphenation patterns "hyph-en-gb.pat.txt".
 Language id: 0
 Loading layout instructions "/home/daniel/64studio/git/speedata-examples/chinese/layout.xml"
-Load Fontfile "NotoSansCJKsc-Light.otf"
+Load Fontfile "HAN_NOM_A.ttf"
 DefineFontfamily, family=2, name="C6"
 DefineFontfamily, family=3, name="footerfont"
 Loading data file "/home/daniel/64studio/git/speedata-examples/chinese/data.xml"
@@ -22,12 +22,17 @@ PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 1)
 Warning: Object protrudes into the right margin
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=2
+Selecting node: "C6BodyText", mode="", pos=3
+Selecting node: "C6BodyText", mode="", pos=4
+Selecting node: "C6BodyText", mode="", pos=5
+Selecting node: "C6BodyText", mode="", pos=6
 Stop processing data
 0 errors occurred
-Duration: 1.788725 seconds
-node_mem_usage=1 vlist, 48 rule, 1 disc, 151 glue, 127 penalty, 1468 glyph, 1549 attribute, 108 glue_spec, 1547 attribute_list, 1 dir, 4 pdf_colorstack, 1 user_defined
+Duration: 1.326340 seconds
+node_mem_usage=7 vlist, 53 rule, 1 disc, 165 glue, 112 penalty, 1468 glyph, 1554 attribute, 103 glue_spec, 1552 attribute_list, 1 dir, 4 pdf_colorstack, 1 user_defined
 luastate_bytes=0
 ---------------------------------------------
-Duration: 1.788967 seconds
+Duration: 1.326537 seconds
 
-node_mem_usage=1 vlist, 48 rule, 1 disc, 151 glue, 127 penalty, 1468 glyph, 1549 attribute, 108 glue_spec, 1547 attribute_list, 1 dir, 4 pdf_colorstack, 1 user_definedluastate_bytes=0
+node_mem_usage=7 vlist, 53 rule, 1 disc, 165 glue, 112 penalty, 1468 glyph, 1554 attribute, 103 glue_spec, 1552 attribute_list, 1 dir, 4 pdf_colorstack, 1 user_definedluastate_bytes=0

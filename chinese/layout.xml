@@ -8,13 +8,13 @@
     show-grid="yes"
     show-gridallocation="no"/>
 
-  <LoadFontfile name="NotoSansCJKsc-Light" filename="NotoSansCJKsc-Light.otf"/>
+  <LoadFontfile name="HanNomA" filename="HAN_NOM_A.ttf"/>
 
   <DefineFontfamily name="C6" fontsize="8" leading="11">
-    <Regular fontface="NotoSansCJKsc-Light"/>
+    <Regular fontface="HanNomA"/>
   </DefineFontfamily>
   <DefineFontfamily name="footerfont" fontsize="8" leading="11">
-    <Regular fontface="NotoSansCJKsc-Light"/>
+    <Regular fontface="HanNomA"/>
   </DefineFontfamily>
 
 
