@@ -1,0 +1,179 @@
+Protocol file for speedata Publisher (2.5.1)
+Time: Mon Jun 13 16:36:49 2016
+---------------------------------------------
+Start processing
+Talking to server on port 59748
+LuaTeX version 79.1
+Loading hyphenation patterns "hyph-en-gb.pat.txt".
+Language id: 0
+Loading layout instructions "/home/daniel/64studio/git/speedata-examples/design/layout.xml"
+Setting default language to "Spanish"
+Loading hyphenation patterns "hyph-es.pat.txt".
+Language id: 1
+Defining color "separator-background"
+Defining color "separator-first"
+Defining color "separator-second"
+Load Fontfile "AmnestyTradeGothic-Light.ttf"
+Load Fontfile "AmnestyTradeGothic-LightObl.ttf"
+Load Fontfile "AmnestyTradeGothic-Bd2.ttf"
+Load Fontfile "AmnestyTradeGothic-Cn18.ttf"
+Load Fontfile "AmnestyTradeGothic-BdCn20.ttf"
+Load Fontfile "AmnestyTradeGothic-BdCn20Ob.ttf"
+DefineFontfamily, family=2, name="separator"
+DefineFontfamily, family=3, name="C1"
+DefineFontfamily, family=4, name="C2"
+DefineFontfamily, family=5, name="C4"
+DefineFontfamily, family=6, name="C5"
+DefineFontfamily, family=7, name="C6"
+DefineFontfamily, family=8, name="C8"
+DefineFontfamily, family=9, name="C10"
+DefineFontfamily, family=10, name="footerfont"
+Loading data file "/home/daniel/64studio/git/speedata-examples/design/data.xml"
+Selecting node: "Section", mode="", pos=1
+Page of type "separator" created (1)
+Number of rows: 48, number of columns = 30
+Selecting node: "content", mode="", pos=1
+Selecting node: "C1Heading", mode="", pos=1
+Page of type "country-entries" created (2)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 2)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 2)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "facts", mode="", pos=2
+Selecting node: "C4IntroText", mode="", pos=3
+Selecting node: "C6BodyTextFirstPara", mode="", pos=4
+Selecting node: "C6BodyText", mode="", pos=5
+Selecting node: "C6BodyText", mode="", pos=6
+Selecting node: "C6BodyTextFirstPara", mode="", pos=7
+Page of type "country-entries" created (3)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 3)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 3)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=8
+Selecting node: "C6BodyText", mode="", pos=9
+Selecting node: "C6BodyText", mode="", pos=10
+Selecting node: "C6BodyTextFirstPara", mode="", pos=11
+Selecting node: "C6BodyText", mode="", pos=12
+Selecting node: "C6BodyText", mode="", pos=13
+Selecting node: "C6BodyTextFirstPara", mode="", pos=14
+Page of type "country-entries" created (4)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 4)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 4)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=15
+Selecting node: "C6BodyText", mode="", pos=16
+Selecting node: "C6BodyText", mode="", pos=17
+Selecting node: "C6BodyTextFirstPara", mode="", pos=18
+Selecting node: "C6BodyText", mode="", pos=19
+Selecting node: "C6BodyTextFirstPara", mode="", pos=20
+Selecting node: "C6BodyText", mode="", pos=21
+Selecting node: "C6BodyText", mode="", pos=22
+Selecting node: "C6BodyTextFirstPara", mode="", pos=23
+Page of type "country-entries" created (5)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 5)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 5)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=24
+Selecting node: "C6BodyText", mode="", pos=25
+Selecting node: "C6BodyTextFirstPara", mode="", pos=26
+Selecting node: "C6BodyText", mode="", pos=27
+Selecting node: "C6BodyText", mode="", pos=28
+Selecting node: "C8EndNotes", mode="", pos=29
+Selecting node: "content", mode="", pos=2
+Selecting node: "C1Heading", mode="", pos=1
+Selecting node: "facts", mode="", pos=2
+Selecting node: "C4IntroText", mode="", pos=3
+Selecting node: "C6BodyTextFirstPara", mode="", pos=4
+Page of type "country-entries" created (6)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 6)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 6)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyText", mode="", pos=5
+Selecting node: "C6BodyTextFirstPara", mode="", pos=6
+Selecting node: "C6BodyTextFirstPara", mode="", pos=7
+Selecting node: "C6BodyTextFirstPara", mode="", pos=8
+Selecting node: "C6BodyText", mode="", pos=9
+Selecting node: "C6BodyText", mode="", pos=10
+Selecting node: "C6BodyText", mode="", pos=11
+Selecting node: "C6BodyText", mode="", pos=12
+Selecting node: "C6BodyTextFirstPara", mode="", pos=13
+Selecting node: "C6BodyText", mode="", pos=14
+Page of type "country-entries" created (7)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 7)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 7)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyTextFirstPara", mode="", pos=15
+Selecting node: "C6BodyText", mode="", pos=16
+Selecting node: "C6BodyText", mode="", pos=17
+Selecting node: "C6BodyTextFirstPara", mode="", pos=18
+Selecting node: "content", mode="", pos=3
+Selecting node: "C1Heading", mode="", pos=1
+Selecting node: "facts", mode="", pos=2
+Selecting node: "C4IntroText", mode="", pos=3
+Selecting node: "C6BodyTextFirstPara", mode="", pos=4
+Page of type "country-entries" created (8)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 8)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 8)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyTextFirstPara", mode="", pos=5
+Selecting node: "C6BodyText", mode="", pos=6
+Selecting node: "C6BodyText", mode="", pos=7
+Selecting node: "C6BodyText", mode="", pos=8
+Selecting node: "C6BodyText", mode="", pos=9
+Selecting node: "C6BodyTextFirstPara", mode="", pos=10
+Selecting node: "C6BodyText", mode="", pos=11
+Selecting node: "C6BodyText", mode="", pos=12
+Selecting node: "C6BodyTextFirstPara", mode="", pos=13
+Page of type "country-entries" created (9)
+Number of rows: 48, number of columns = 30
+PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 9)
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 9)
+Warning: Object protrudes into the right margin
+Warning: Object protrudes below the last line of the page
+Warning: Conflict in grid
+Selecting node: "C6BodyTextFirstPara", mode="", pos=14
+Selecting node: "C6BodyTextFirstPara", mode="", pos=15
+Selecting node: "C6BodyTextFirstPara", mode="", pos=16
+Selecting node: "C6BodyText", mode="", pos=17
+Selecting node: "C8EndNotes", mode="", pos=18
+Stop processing data
+0 errors occurred
+Duration: 1.570542 seconds
+node_mem_usage=6 hlist, 105 vlist, 209 rule, 9 disc, 4983 glue, 53 penalty, 23854 glyph, 28167 attribute, 4350 glue_spec, 28145 attribute_list, 3 action, 1 dir, 3 pdf_start_link, 3 pdf_end_link, 36 pdf_colorstack, 1 user_defined
+luastate_bytes=0
+---------------------------------------------
+Duration: 1.572189 seconds
+
+node_mem_usage=6 hlist, 105 vlist, 209 rule, 9 disc, 4983 glue, 53 penalty, 23854 glyph, 28167 attribute, 4350 glue_spec, 28145 attribute_list, 3 action, 1 dir, 3 pdf_start_link, 3 pdf_end_link, 36 pdf_colorstack, 1 user_definedluastate_bytes=0

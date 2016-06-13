@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="urn:speedata.de:2009/publisher/en"
+        xmlns:sd="urn:speedata:2009/publisher/functions/en">
+
+  <Options
+    cutmarks="yes"
+    trim="3mm"
+    show-grid="yes"
+    show-gridallocation="no"
+    mainlanguage="Spanish"/>
+
+  <DefineColor name="separator-background" model="cmyk" c="0" m="0" y="0" k="13"/>
+  <DefineColor name="separator-first" model="cmyk" c="0" m="0" y="0" k="70"/>
+  <DefineColor name="separator-second" model="cmyk" c="0" m="0" y="0" k="90"/>
+
+  <LoadFontfile name="AmnestyTradeGothic-Light" filename="AmnestyTradeGothic-Light.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-LightObl" filename="AmnestyTradeGothic-LightObl.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-Bd2" filename="AmnestyTradeGothic-Bd2.ttf"/>
+
+  <LoadFontfile name="AmnestyTradeGothic-Cn18" filename="AmnestyTradeGothic-Cn18.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-BdCn20" filename="AmnestyTradeGothic-BdCn20.ttf"/>
+  <LoadFontfile name="AmnestyTradeGothic-BdCn20Ob" filename="AmnestyTradeGothic-BdCn20Ob.ttf"/>
+
+  <DefineFontfamily name="separator" fontsize="30" leading="30">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C1" fontsize="22" leading="22">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C2" fontsize="8.5" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Cn18"/>
+    <Bold fontface="AmnestyTradeGothic-BdCn20"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C4" fontsize="8" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Bd2"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C5" fontsize="12" leading="11">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C6" fontsize="8" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Light"/>
+    <Bold fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-LightObl"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C8" fontsize="6" leading="11">
+    <Regular fontface="AmnestyTradeGothic-Cn18"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="C10" fontsize="12" leading="11">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+    <Italic fontface="AmnestyTradeGothic-BdCn20Ob"/>
+  </DefineFontfamily>
+  <DefineFontfamily name="footerfont" fontsize="7.5" leading="11">
+    <Regular fontface="AmnestyTradeGothic-BdCn20"/>
+  </DefineFontfamily>
+
+  <SetVariable variable="footertext-left">
+    <Paragraph textformat="footer-left" fontface="footerfont">
+      <Value>Informe 2014/15 Amnistía Internacional</Value>
+    </Paragraph>
+  </SetVariable>
+
+  <SetVariable variable="footertext-right">
+    <Paragraph fontface="footerfont">
+      <Value>Informe 2014/15 Amnistía Internacional</Value>
+    </Paragraph>
+  </SetVariable>
+
+  <DefineTextformat name="title" padding-top="11pt" hyphenate="no"/>
+  <DefineTextformat name="facts" padding-top="10pt" border-top="0.8pt" border-bottom="0.5pt" hyphenate="no"/>
+  <DefineTextformat name="intro" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="subheading" margin-top="11pt" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="text" alignment="leftaligned" hyphenate="no"/>
+  <DefineTextformat name="endnotes" margin-top="10.5pt" border-top="0.5pt" padding-top="-0.5pt" margin-bottom="22pt" hyphenate="no"/>
+  <DefineTextformat name="footer-left" alignment="rightaligned" hyphenate="no"/>
+
+  <SetGrid width="11pt" height="11pt"/>
+  <Pageformat width="140mm" height="215mm"/>
+
+  <Pagetype name="separator" test="$chaptertype = 'separator'">
+    <Margin left="11mm" right="13mm" top="12mm" bottom="18mm"/>
+    <PositioningArea name="text-1column">
+      <PositioningFrame width="28" height="30" row="22" column="1"/>
+    </PositioningArea>
+  </Pagetype>
+
+  <Pagetype name="country-entries" test="$chaptertype = 'country-entries'">
+    <Margin left="11mm" right="13mm" top="12mm" bottom="18mm"/>
+    <PositioningArea name="text-2column">
+      <PositioningFrame width="14" height="48" row="1" column="1"/>
+      <PositioningFrame width="14" height="48" row="1" column="17"/>
+    </PositioningArea>
+    <AtPageCreation>
+      <Switch>
+        <Case test="sd:even(sd:current-page())">
+          <PlaceObject row="51" column="6">
+            <Textblock width="25" height="1">
+              <Copy-of select="$footertext-left"/> 
+            </Textblock>
+          </PlaceObject>
+          <PlaceObject row="51" column="1">
+            <Textblock width="3" height="1">
+              <Paragraph fontface="footerfont" textformat="rightaligned"><Value select="sd:current-page()"/></Paragraph>
+            </Textblock>
+          </PlaceObject>
+        </Case>
+        <Otherwise>
+          <PlaceObject row="51" column="1">
+            <Textblock width="25" height="1">
+              <Copy-of select="$footertext-right"/>
+            </Textblock>
+          </PlaceObject>
+          <PlaceObject row="51" column="30">
+            <Textblock width="3" height="1">
+              <Paragraph fontface="footerfont" textformat="rightaligned"><Value select="sd:current-page()"/></Paragraph>
+            </Textblock>
+          </PlaceObject>
+        </Otherwise>
+      </Switch>
+    </AtPageCreation>
+  </Pagetype>
+
+  <Record element="document">
+    <ProcessNode select="Section"/>
+    <ProcessNode select="content"/>
+  </Record>
+
+  <Record element="Section">
+  <SetVariable variable="chaptertype" select="'separator'"/>
+    <PlaceObject column="-3mm" row="-3mm" background="full" backgroundcolor="separator-background">
+      <Image file="dividers.pdf" width="146mm" height="221mm"/>
+    </PlaceObject>
+    <PlaceObject column="95mm" row="95mm">
+      <Image file="grey-year.pdf" width="46mm" height="100mm"/>
+    </PlaceObject>
+    <ForAll select="First">
+      <Output area="text-1column">
+        <Text>
+          <Paragraph textformat="title" fontface="separator">
+            <Color name="separator-first"><Value select="."></Value></Color>
+          </Paragraph>
+        </Text>
+      </Output>
+    </ForAll>
+    <ForAll select="Second">
+      <Output area="text-1column">
+        <Text>
+          <Paragraph textformat="title" fontface="separator">
+            <Color name="separator-second"><Value select="."></Value></Color>
+          </Paragraph>
+        </Text>
+      </Output>
+    </ForAll>
+  <SetVariable variable="chaptertype" select="'country-entries'"/>
+  <NewPage />
+  </Record>
+
+  <Record element="content">
+    <ProcessNode select="*"/>
+  </Record>
+
+    <Record element="C1Heading">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="title" fontface="C1">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="facts">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="facts" fontface="C2">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C4IntroText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph textformat="intro" fontface="C4">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C6BodyTextFirstPara">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph class="subheading" textformat="subheading" fontface="C5">
+            <Value select="@subheading"></Value>
+          </Paragraph>
+          <Paragraph fontface="C6">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C6BodyText">
+      <Output area="text-2column">
+        <Text>
+          <Paragraph fontface="C6">
+            <Value select="."></Value>
+          </Paragraph>
+        </Text>
+      </Output>
+    </Record>
+
+    <Record element="C8EndNotes">
+      <Output area="text-2column">
+        <Text>
+          <Ol>
+            <ForAll select="C8EndNote">
+              <Li><Value select="."></Value></Li>
+            </ForAll>
+          </Ol>
+        </Text>
+      </Output>
+    </Record>
+
+</Layout>
