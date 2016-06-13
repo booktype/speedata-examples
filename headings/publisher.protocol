@@ -1,8 +1,8 @@
-Protocol file for speedata Publisher (2.4.0)
-Time: Thu Jun  9 14:55:37 2016
+Protocol file for speedata Publisher (2.5.1)
+Time: Mon Jun 13 11:54:22 2016
 ---------------------------------------------
 Start processing
-Talking to server on port 60202
+Talking to server on port 51397
 LuaTeX version 79.1
 Loading hyphenation patterns "hyph-en-gb.pat.txt".
 Language id: 0
@@ -10,7 +10,6 @@ Loading layout instructions "/home/daniel/64studio/git/speedata-examples/heading
 Setting default language to "Spanish"
 Loading hyphenation patterns "hyph-es.pat.txt".
 Language id: 1
-Loading CSS "/home/daniel/64studio/git/speedata-examples/headings/styles.css"
 Defining color "separator-first"
 Defining color "separator-second"
 Load Fontfile "AmnestyTradeGothic-Light.ttf"
@@ -97,8 +96,7 @@ Selecting node: "content", mode="", pos=2
 Selecting node: "C1Heading", mode="", pos=1
 Selecting node: "facts", mode="", pos=2
 Selecting node: "C4IntroText", mode="", pos=3
-Selecting node: "C10HeadingIntro", mode="", pos=4
-Selecting node: "C6BodyTextFirstPara", mode="", pos=5
+Selecting node: "C6BodyTextFirstPara", mode="", pos=4
 Page of type "country-entries" created (5)
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 1, width=25, height=2 (page 5)
@@ -108,15 +106,16 @@ PlaceObject: Textblock in row 51 and column 30, width=3, height=2 (page 5)
 Warning: Object protrudes into the right margin
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
-Selecting node: "C6BodyText", mode="", pos=6
+Selecting node: "C6BodyText", mode="", pos=5
+Selecting node: "C6BodyTextFirstPara", mode="", pos=6
 Selecting node: "C6BodyTextFirstPara", mode="", pos=7
 Selecting node: "C6BodyTextFirstPara", mode="", pos=8
-Selecting node: "C6BodyTextFirstPara", mode="", pos=9
+Selecting node: "C6BodyText", mode="", pos=9
 Selecting node: "C6BodyText", mode="", pos=10
 Selecting node: "C6BodyText", mode="", pos=11
 Selecting node: "C6BodyText", mode="", pos=12
-Selecting node: "C6BodyText", mode="", pos=13
-Selecting node: "C6BodyTextFirstPara", mode="", pos=14
+Selecting node: "C6BodyTextFirstPara", mode="", pos=13
+Selecting node: "C6BodyText", mode="", pos=14
 Page of type "country-entries" created (6)
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 6)
@@ -125,11 +124,10 @@ Warning: Conflict in grid
 PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 6)
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
-Selecting node: "C6BodyText", mode="", pos=15
-Selecting node: "C6BodyTextFirstPara", mode="", pos=16
+Selecting node: "C6BodyTextFirstPara", mode="", pos=15
+Selecting node: "C6BodyText", mode="", pos=16
 Selecting node: "C6BodyText", mode="", pos=17
-Selecting node: "C6BodyText", mode="", pos=18
-Selecting node: "C6BodyTextFirstPara", mode="", pos=19
+Selecting node: "C6BodyTextFirstPara", mode="", pos=18
 Selecting node: "content", mode="", pos=3
 Selecting node: "C1Heading", mode="", pos=1
 Selecting node: "facts", mode="", pos=2
@@ -152,6 +150,7 @@ Selecting node: "C6BodyText", mode="", pos=9
 Selecting node: "C6BodyTextFirstPara", mode="", pos=10
 Selecting node: "C6BodyText", mode="", pos=11
 Selecting node: "C6BodyText", mode="", pos=12
+Selecting node: "C6BodyTextFirstPara", mode="", pos=13
 Page of type "country-entries" created (8)
 Number of rows: 48, number of columns = 30
 PlaceObject: Textblock in row 51 and column 6, width=25, height=2 (page 8)
@@ -160,7 +159,6 @@ Warning: Conflict in grid
 PlaceObject: Textblock in row 51 and column 1, width=3, height=2 (page 8)
 Warning: Object protrudes below the last line of the page
 Warning: Conflict in grid
-Selecting node: "C6BodyTextFirstPara", mode="", pos=13
 Selecting node: "C6BodyTextFirstPara", mode="", pos=14
 Selecting node: "C6BodyTextFirstPara", mode="", pos=15
 Selecting node: "C6BodyTextFirstPara", mode="", pos=16
@@ -168,10 +166,10 @@ Selecting node: "C6BodyText", mode="", pos=17
 Selecting node: "C8EndNotes", mode="", pos=18
 Stop processing data
 0 errors occurred
-Duration: 1.609772 seconds
-node_mem_usage=3 hlist, 104 vlist, 208 rule, 9 disc, 4988 glue, 53 penalty, 23960 glyph, 28262 attribute, 4350 glue_spec, 28243 attribute_list, 1 dir, 32 pdf_colorstack, 1 user_defined
+Duration: 1.574529 seconds
+node_mem_usage=6 hlist, 103 vlist, 205 rule, 9 disc, 4979 glue, 53 penalty, 23813 glyph, 28115 attribute, 4347 glue_spec, 28093 attribute_list, 4 action, 1 dir, 4 pdf_start_link, 4 pdf_end_link, 32 pdf_colorstack, 1 user_defined
 luastate_bytes=0
 ---------------------------------------------
-Duration: 1.611381 seconds
+Duration: 1.576202 seconds
 
-node_mem_usage=3 hlist, 104 vlist, 208 rule, 9 disc, 4988 glue, 53 penalty, 23960 glyph, 28262 attribute, 4350 glue_spec, 28243 attribute_list, 1 dir, 32 pdf_colorstack, 1 user_definedluastate_bytes=0
+node_mem_usage=6 hlist, 103 vlist, 205 rule, 9 disc, 4979 glue, 53 penalty, 23813 glyph, 28115 attribute, 4347 glue_spec, 28093 attribute_list, 4 action, 1 dir, 4 pdf_start_link, 4 pdf_end_link, 32 pdf_colorstack, 1 user_definedluastate_bytes=0

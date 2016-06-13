@@ -9,8 +9,6 @@
     show-gridallocation="no"
     mainlanguage="Spanish"/>
 
-  <Stylesheet filename="styles.css"/>
-
   <DefineColor name="separator-first" model="cmyk" c="0" m="0" y="0" k="70"/>
   <DefineColor name="separator-second" model="cmyk" c="0" m="0" y="0" k="90"/>
 
@@ -179,16 +177,6 @@
       <Output area="text-2column">
         <Text>
           <Paragraph textformat="intro" fontface="C4">
-            <Value select="."></Value>
-          </Paragraph>
-        </Text>
-      </Output>
-    </Record>
-
-    <Record element="C10HeadingIntro">
-      <Output area="text-2column">
-        <Text>
-          <Paragraph textformat="subheading" fontface="C10">
             <Value select="."></Value>
           </Paragraph>
         </Text>
