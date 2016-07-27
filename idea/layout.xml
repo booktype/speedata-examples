@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="urn:speedata.de:2009/publisher/en"  xmlns:sd="urn:speedata:2009/publisher/functions/en">
+
+  <Options
+    cutmarks="yes"
+    trim="3mm"
+    show-grid="yes"
+    show-gridallocation="no"
+    mainlanguage="English (Great Britain)"/>
+
+   <DefineColor name="50-percent-grey" model="cmyk" c="0" m="0" y="0" k="50"/>
+   <DefineColor name="90-percent-grey" model="cmyk" c="0" m="0" y="0" k="90"/>
+   
+  <LoadFontfile name="AdobeGaramondPro-Regular" filename="AGaramondPro-Regular.otf"/>
+  <LoadFontfile name="AdobeGaramondPro-Bold" filename="AGaramondPro-Bold.otf"/>
+  <LoadFontfile name="AdobeGaramondPro-BoldItalic" filename="AGaramondPro-BoldItalic.otf"/>
+  <LoadFontfile name="AdobeGaramondPro-SemiboldItalic" filename="AGaramondPro-SemiboldItalic.otf"/>
+  <LoadFontfile name="AdobeGaramondPro-Italic" filename="AGaramondPro-Italic.otf"/>
+
+  <LoadFontfile name="MetaOT-Black" filename="MetaOT-Black.otf"/>
+  <LoadFontfile name="MetaOT-Bold" filename="MetaOT-Bold.otf"/>
+  <LoadFontfile name="MetaOT-BoldItalic" filename="MetaOT-BoldIta.otf"/>
+  <LoadFontfile name="MetaOT-CondensedNormal" filename="MetaOT-CondNorm.otf"/>
+  <LoadFontfile name="MetaOT-Normal" filename="MetaOT-Norm.otf"/>
+
+  <DefineFontfamily name="book-title-font" fontsize="20" leading="26">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="book-subtitle-font" fontsize="14" leading="32">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="footer-font" fontsize="7" leading="9">
+    <Regular fontface="MetaOT-CondensedNormal"/>
+  </DefineFontfamily>  
+  
+  <DefineFontfamily name="contributors-font" fontsize="10" leading="14">
+    <Regular fontface="MetaOT-CondensedNormal"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="donor-font" fontsize="9" leading="13">
+    <Regular fontface="AdobeGaramondPro-Italic"/>
+  </DefineFontfamily>  
+  
+  <DefineFontfamily name="credits-font" fontsize="7" leading="9">
+    <Regular fontface="MetaOT-Normal"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="signatory-font" fontsize="11" leading="14">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+    <Italic fontface="AdobeGaramondPro-Italic"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="toc-title-font" fontsize="10" leading="13">
+    <Regular fontface="MetaOT-Normal"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="toc-author-font" fontsize="10" leading="13">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>  
+  
+  <DefineFontfamily name="toc-section-font" fontsize="10" leading="13">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="chapter-number-font" fontsize="20" leading="26">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>
+
+  <DefineFontfamily name="chapter-title-font" fontsize="18" leading="23">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="abbreviation-definition-font" fontsize="9" leading="12">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="abbreviation-term-font" fontsize="9" leading="12">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="body-text-font" fontsize="11" leading="13">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="header-1-font" fontsize="12" leading="16">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="header-2-font" fontsize="10" leading="13">
+    <Regular fontface="MetaOT-Bold"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="header-3-font" fontsize="10" leading="13">
+    <Regular fontface="MetaOT-BoldItalic"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="table-title-font" fontsize="10" leading="13">
+    <Regular fontface="MetaOT-CondensedNormal"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="table-source-font" fontsize="7" leading="9">
+    <Regular fontface="MetaOT-Normal"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="table-body-font" fontsize="8" leading="9.6">
+    <Regular fontface="MetaOT-Normal"/>
+  </DefineFontfamily>
+
+  <DefineFontfamily name="bullet-text-font" fontsize="11" leading="13">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="box-title-font" fontsize="10" leading="13">
+    <Regular fontface="MetaOT-CondensedNormal"/>
+  </DefineFontfamily>
+  
+  <DefineFontfamily name="box-text-font" fontsize="9" leading="13">
+    <Regular fontface="MetaOT-CondensedNormal"/>
+  </DefineFontfamily>  
+
+  <DefineFontfamily name="box-source-font" fontsize="8" leading="11">
+    <Regular fontface="MetaOT-Normal"/>
+  </DefineFontfamily>
+
+  <DefineFontfamily name="endnote-font" fontsize="10" leading="13">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+  </DefineFontfamily>
+
+  <DefineFontfamily name="author-listing-font" fontsize="11" leading="13">
+    <Regular fontface="AdobeGaramondPro-Regular"/>
+    <Bold fontface="AdobeGaramondPro-Bold"/>
+  </DefineFontfamily>
+        
+  <SetVariable variable="footertext-left">
+    <Paragraph textformat="footer-left" fontface="footer-font">
+      <Value>International IDEA</Value>
+    </Paragraph>
+  </SetVariable>
+
+  <SetVariable variable="footertext-right">
+    <Paragraph fontface="footer-font">
+      <Value>International IDEA</Value>
+    </Paragraph>
+  </SetVariable>
+
+  <DefineTextformat name="contributors-format" margin-top="16mm" margin-bottom="2mm"/>
+  <DefineTextformat name="toc-subsection-format" indentation="7mm" rows="1"/>
+  <DefineTextformat name="body-indented-format" indentation="3.8mm"/>
+  <DefineTextformat name="bullet-text-format" indentation="5mm" rows="1"/>
+  <DefineTextformat name="box-source-format" border-top="1mm"/>
+  <DefineTextformat name="bibliography-format" indentation="5mm" rows="1" margin-bottom="6.5pt"/>
+  <DefineTextformat name="footer-left" alignment="rightaligned" hyphenate="no"/>
+    
+  <SetGrid width="12.7mm" height="11pt"/>
+  <Pageformat width="177mm" height="244mm"/>
+
+  <Pagetype name="titlepage" test="$chaptertype = 'titlepage'">
+    <Margin left="20mm" right="20mm" top="16mm" bottom="16mm"/>
+    <PositioningArea name="logos-box">
+      <PositioningFrame width="11" height="6" row="1" column="1"/>
+    </PositioningArea>
+    <PositioningArea name="titlepage-mainbox">
+      <PositioningFrame width="9" height="30" row="18" column="3"/>
+    </PositioningArea>
+   <PositioningArea name="titlepage-donorbox">
+      <PositioningFrame width="9" height="7" row="49" column="2"/>
+    </PositioningArea>
+  </Pagetype>
+
+  <Pagetype name="mainmatter" test="$chaptertype = 'mainmatter'">
+    <Margin left="25mm" right="25mm" top="29.6mm" bottom="19.4mm"/>
+    <PositioningArea name="text-1column">
+         <PositioningFrame width="10" height="49" row="1" column="1"/>
+    </PositioningArea>
+    <AtPageCreation>
+      <Switch>
+        <Case test="sd:even(sd:current-page())">
+          <PlaceObject row="50" column="6">
+            <Textblock width="5" height="1">
+              <Copy-of select="$footertext-left"/> 
+            </Textblock>
+          </PlaceObject>
+          <PlaceObject row="50" column="1">
+            <Textblock width="1" height="1">
+              <Paragraph fontface="footer-font" textformat="rightaligned"><Value select="sd:current-page()"/></Paragraph>
+            </Textblock>
+          </PlaceObject>
+        </Case>
+        <Otherwise>
+          <PlaceObject row="50" column="1">
+            <Textblock width="5" height="1">
+              <Copy-of select="$footertext-right"/>
+            </Textblock>
+          </PlaceObject>
+          <PlaceObject row="50" column="10">
+            <Textblock width="1" height="1">
+              <Paragraph fontface="footer-font" textformat="rightaligned"><Value select="sd:current-page()"/></Paragraph>
+            </Textblock>
+          </PlaceObject>
+        </Otherwise>
+      </Switch>
+    </AtPageCreation>
+  </Pagetype>
+
+  <SetVariable variable="chaptertype" select="'titlepage'"/>
+
+  <Record element="book">
+
+    <PlaceObject area="logos-box">
+      <Image file="logos/blue_logo.jpg" width="22mm" height="22mm"/>
+    </PlaceObject>
+
+      <Output area="titlepage-mainbox">
+        <Text>
+
+          <ForAll select="title">
+            <Paragraph fontface="book-title-font">
+              <Value select="."></Value>
+            </Paragraph>
+          </ForAll>
+
+          <ForAll select="titleabbrev">
+            <Paragraph fontface="book-subtitle-font">
+              <Value select="."></Value>
+            </Paragraph>
+          </ForAll>
+
+          <ForAll select="subtitle">
+            <Paragraph fontface="book-subtitle-font">
+              <Value select="."></Value>
+            </Paragraph>
+          </ForAll>
+
+          <Paragraph textformat="contributors-format" fontface="contributors-font">
+            <Value>Contributors:</Value>
+          </Paragraph>
+
+          <ForAll select="info">
+                   
+              <ForAll select="author">
+                <ForAll select="personname">
+                  <Paragraph fontface="contributors-font">
+                    <Value select="."></Value>
+                  </Paragraph>  
+                </ForAll>
+              </ForAll>
+              <ForAll select="editor">
+                <ForAll select="personname">
+                  <Paragraph fontface="contributors-font">
+                    <Value select="."></Value>
+                  </Paragraph>  
+                </ForAll>
+              </ForAll>
+
+          </ForAll>
+
+        </Text>
+      </Output>
+      
+      <Output area="titlepage-donorbox">
+        <Text>
+            <ForAll select="acknowledgements">
+                <ForAll select="para">
+                  <Paragraph fontface="donor-font">
+                    <Value select="."></Value>
+                  </Paragraph>  
+                </ForAll>
+            </ForAll>
+        </Text>
+      </Output>
+
+    <SetVariable variable="chaptertype" select="'frontmatter'"/>
+
+  </Record>
+
+</Layout>
