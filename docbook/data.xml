@@ -4,17 +4,17 @@
   <titleabbrev>Short title of the report</titleabbrev>
   <subtitle>Subtitle cont.</subtitle>
   <info>
-    <legalnotice><para>© International Institute for Democracy and Electoral Assistance %dateCopyrighted%</para>
-<para>International IDEA publications are independent of specific national or political interests. Views expressed in this publication do not necessarily represent the views of International IDEA, its Board or its Council members.</para>
+    <legalnotice><para>© Name of Legal Organisation %dateCopyrighted%</para>
+<para>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</para>
 <para>The electronic version of this publication is available under a Creative Commons licence (CCl)—Creative Commons Attribute-NonCommercial-ShareAlike 3.0 licence. You are free to copy, distribute and transmit the publication as well as to remix and adapt it, provided it is only for non-commercial purposes, that you appropriately attribute the publication, and that you distribute it under an identical licence. For more information on this CCl, see http://creativecommons.org/licenses/by-nc-sa/3.0/.</para>
-<para>The map(s) presented in this publication does not imply on the part of the Institute any judgement on the legal status of any territory or the endorsement of such boundaries, nor does the placement or size of any country or territory reflect the political view of the Institute. The map is created for this publication in order to add clarity to the text.</para>
-<para>International IDEA
-Strömsborg
-SE–103 34 Stockholm
-Sweden
-Tel: +46 8 698 37 00, FAX: 4+46 8 20 24 22
-Email: info@idea.int, website: www.idea.int</para>
-<para>International IDEA encourages dissemination of its work and will promptly respond to requests for permission to reproduce or translate its publications.</para></legalnotice>
+<para>The map(s) presented in this publication does not imply on the part of the organisation any judgement on the legal status of any territory or the endorsement of such boundaries, nor does the placement or size of any country or territory reflect the political view of the organisation. The map is created for this publication in order to add clarity to the text.</para>
+<para>Organisation
+99 Some Street
+Zip Town
+Country
+Tel: +44 0 756 64 00, FAX: +46 9 40 14 21
+Email: info@example.com, website: www.example.com</para>
+<para>This organisation encourages dissemination of its work and will promptly respond to requests for permission to reproduce or translate its publications.</para></legalnotice>
     <author xml:base='%url_author%'>
       <personname>Volore Maio</personname>
     </author>
@@ -36,7 +36,7 @@ Email: info@idea.int, website: www.idea.int</para>
       <year>%dateCopyrighted%</year>
       <holder>%rights_holder%</holder>
     </copyright>
-    <biblioid class='isbn'>%isbn%</biblioid>
+    <biblioid class='isbn'>1234 5678 910</biblioid>
     <edition>%as edition%</edition>
 
     <othercredit role='graphic_design'>
@@ -46,7 +46,7 @@ Email: info@idea.int, website: www.idea.int</para>
       <personname>Steve Jones</personname>
     </othercredit>
     <othercredit role='map_design'>
-      <personname>%map_design%</personname>
+      <personname>Amber Camber</personname>
     </othercredit>
     <othercredit role='translation_by'>
       <personname>%translation_by%</personname>
@@ -62,7 +62,7 @@ Email: info@idea.int, website: www.idea.int</para>
       <personname>%photography%</personname>
     </othercredit>
     <othercredit role='cover_photography'>
-      <personname>%cover_photography%</personname>
+      <personname>Jane Lensman</personname>
     </othercredit>
     <othercredit role='lectorate'>
       <personname>%lectorate%</personname>
@@ -85,12 +85,12 @@ Email: info@idea.int, website: www.idea.int</para>
     <bibliomisc role='typeface'>%typeface%</bibliomisc>
     <bibliomisc role='printed_on'>%printed_on%</bibliomisc>
     <bibliomisc role='bookbinder'>%bookbinder%</bibliomisc>
-    <bibliomisc role='printer'>%printer%</bibliomisc>
+    <bibliomisc role='printer'>Alan McFalllon Ltd.</bibliomisc>
     <bibliomisc role='printer_country'>%printer_country%</bibliomisc>
     <bibliomisc role='paper_certification'>%paper_certification%</bibliomisc>
   </info>
   <acknowledgements><para>Tem suntect empersp elesedis endigent fugia nonesec totatem remquae officatquam niminci tiones simusam dolore parumquam, odis as etur sequam qui dipsam estisqui utas ipient, endam arit, aperibus secupta sed et volore molor sediti dolum quas es venitatem est fuga. Name quist, tem faccus aboribus modigniet est offictesto tem velectaecus. Lori vellorerro etus eataque idenihi tesequo eatur aut aspid moluptae voles vera voluptate</para></acknowledgements>
-  <dedication><para>This book is dedicated to you.</para></dedication>
+  <dedication><para>This book has been produced with the support of XXX.</para></dedication>
     <chapter label='Foreword (no.1)' xml:id='part1chapter1'>
       <info>
         <title>Foreword (no.1)</title>

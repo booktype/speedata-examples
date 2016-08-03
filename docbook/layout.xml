@@ -6,6 +6,7 @@
     trim="3mm"
     show-grid="yes"
     show-gridallocation="no"
+    ignoreeol="no"
     mainlanguage="English (Great Britain)"/>
 
    <DefineColor name="50-percent-grey" model="cmyk" c="0" m="0" y="0" k="50"/>
@@ -147,6 +148,7 @@
 
   <DefineTextformat name="contributors-format" margin-top="16mm" margin-bottom="2mm"/>
   <DefineTextformat name="credits-format" margin-bottom="9pt" hyphenate="no"/>
+  <DefineTextformat name="biblioid-format" margin-top="9pt"/>
   <DefineTextformat name="toc-subsection-format" indentation="7mm" rows="1"/>
   <DefineTextformat name="body-indented-format" indentation="3.8mm"/>
   <DefineTextformat name="bullet-text-format" indentation="5mm" rows="1"/>
@@ -174,6 +176,9 @@
     <Margin left="25mm" right="20mm" top="16mm" bottom="16mm"/>
     <PositioningArea name="imprint-mainbox">
       <PositioningFrame width="10" height="30" row="21" column="1"/>
+    </PositioningArea>
+    <PositioningArea name="imprint-dedicationbox">
+      <PositioningFrame width="8" height="4" row="52" column="2"/>
     </PositioningArea>
   </Pagetype>
 
@@ -291,22 +296,52 @@
                   </ForAll>
                 </ForAll>
                 <ForAll select="othercredit">
-                  <SetVariable variable="role" select="@role"/>
-                  <SetVariable variable="personname" select="@personname"/>
+                  <Paragraph fontface="credits-font" color="90-percent-grey">
                   <Switch>
-                    <Case test="$role = 'graphic_design'">
-                      <Paragraph textformat="credits-format" fontface="credits-font" color="90-percent-grey">
-                        <Value>Graphic design by: </Value><Value select="."></Value>
-                      </Paragraph>
+                    <Case test="@role = 'graphic_design' and string(personname) != ''">
+                        <Value>Graphic design by: </Value><Value select="personname"></Value>
+                    </Case>
+                    <Case test="@role = 'cover_design' and string(personname) != ''">
+                        <Value>Cover design by: </Value><Value select="personname"></Value>
+                    </Case>
+                    <Case test="@role = 'map_design' and string(personname) != ''">
+                        <Value>Map design by: </Value><Value select="personname"></Value>
+                    </Case>
+                    <Case test="@role = 'cover_photography' and string(personname) != ''">
+                        <Value>Cover photos © </Value><Value select="personname"></Value>
                     </Case>
                   </Switch>
+                  </Paragraph>
+                </ForAll>
+                <ForAll select="bibliomisc">
+                  <Paragraph fontface="credits-font" color="90-percent-grey">
                   <Switch>
-                    <Case test="$role = 'cover_design'">
-                      <Paragraph textformat="credits-format" fontface="credits-font" color="90-percent-grey">
-                        <Value>Cover design by: </Value><Value select="."></Value>
-                      </Paragraph>
+                    <Case test="@role = 'printer' and string(.) !=''">
+                        <Value>Printed by: </Value><Value select="."></Value>
                     </Case>
                   </Switch>
+                </Paragraph>
+              </ForAll>
+              <ForAll select="biblioid">
+                  <Paragraph textformat="biblioid-format" fontface="credits-font" color="90-percent-grey">
+                  <Switch>
+                    <Case test="@class = 'isbn' and string(.) !=''">
+                        <Value>ISBN: </Value><Value select="."></Value>
+                    </Case>
+                  </Switch>
+                </Paragraph>
+              </ForAll>
+            </ForAll>
+        </Text>
+      </Output>
+      
+     <Output area="imprint-dedicationbox">
+        <Text>
+            <ForAll select="dedication">
+                <ForAll select="para">
+                  <Paragraph textformat="centered" fontface="credits-font"  color="90-percent-grey">
+                    <Value select="."></Value>
+                  </Paragraph>  
                 </ForAll>
             </ForAll>
         </Text>
